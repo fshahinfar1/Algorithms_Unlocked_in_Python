@@ -2,7 +2,6 @@ def selection_sort(arr):
     length = len(arr)
     if length == 0:
         return arr
-
     for i in range(length):
         min_index = i
         for j in range(i+1, length):
@@ -13,7 +12,6 @@ def selection_sort(arr):
         arr[min_index] = temp_value
 
     return arr
-
 
 
 def main():
