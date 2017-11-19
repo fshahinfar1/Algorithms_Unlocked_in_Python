@@ -21,8 +21,11 @@ class stack(object):
         return self.__container[self.__top]
 
     def pop(self):
-        del self.__container[self.__top]
-        self.__top -= 1
+        if self.__top > -1:
+            del self.__container[self.__top]
+            self.__top -= 1
+        else:
+            raise Exception('Can not pop an empty stack')
 
     def push(self, value):
         self.__container[self.__top+1:] = [value]
