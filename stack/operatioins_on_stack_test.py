@@ -8,8 +8,9 @@ def main():
     # while not s.is_empty():
     #     print(s.top(), s.size()-1)
     #     s.pop()
-    operations_on_stack.insert_at_bottom(s, 11)
-    operations_on_stack.reverse(s)
+    operations_on_stack.insert_sorted(s, 6)
+    # operations_on_stack.insert_at_bottom(s, 11)
+    # operations_on_stack.reverse(s)
     print(s)
 
 

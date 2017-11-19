@@ -1,10 +1,11 @@
 '''
-Farbod Shahinfar
-95521216
-Data Structure Course
-Fall 96-97
-HW1
-Stack
+stack class
+operations:
+    top
+    pop
+    push
+    size
+    is_empty
 '''
 
 class stack(object):
