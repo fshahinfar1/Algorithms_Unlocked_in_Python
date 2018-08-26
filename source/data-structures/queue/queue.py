@@ -12,16 +12,16 @@ class Queue:
         return self._head == -1
 
     def peek(self):
-        if is_empty():
+        if self.is_empty():
             raise Exception("Access to empty queue")
-        return self._container[]
+        return self._container[self._head]
 
     def enqueue(self, value):
         self._container.append(value)
         self._head += 1
 
     def dequeue(self):
-        if is_empty():
+        if self.is_empty():
             raise Exception("Access to empty queue")
         self._head -= 1
         return self._container.pop()
