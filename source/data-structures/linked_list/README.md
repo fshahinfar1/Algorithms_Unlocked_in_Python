@@ -1,0 +1,2 @@
+# Linked list
+Linked list is a data structure for storing a collection of data and accessing them sequentially. Unlike arrays data in linked list is not stored in a sequence on memory. it works with this simple idea that each element knows where on memory the next elment is.
